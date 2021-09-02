@@ -22,7 +22,6 @@ runs:
     - name: Deploy
       shell: bash
       run: |
-        GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}"
         echo $GITHUB_TOKEN
         if [[ -n $GITHUB_TOKEN ]]; then
           if [[ $GITHUB_REF == 'refs/heads/master'
