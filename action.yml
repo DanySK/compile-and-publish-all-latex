@@ -20,13 +20,16 @@ runs:
       uses: DanySK/semver-autotag-action@0.1.0
     - name: Deploy
       if: ${{ startsWith(github.ref, 'refs/tags/') || github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' || github.ref == 'refs/heads/default' }}
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      shell: bash
       run: |
-        TAG=$(git describe --tags --exact-match HEAD)
-        hub release create -m "$(git tag -l --format='%(contents)' "$TAG")" "$TAG" || true
-        for file in $LATEX_SUCCESSES; do
-          pdf="${file%.*}.pdf"
-          echo "Delivering file $pdf"
-          gh release upload "$TAG" "$pdf" --clobber
-        done
+        GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}"
+        echo $GITHUB_TOKEN
+        if [[ $GITHUB_REF == 'refs/heads/master' || $GITHUB_REF == 'refs/heads/main' || $GITHUB_REF == 'refs/heads/default' || $GITHUB_REF == "refs/tags"* ]] then
+          TAG=$(git describe --tags --exact-match HEAD)
+          hub release create -m "$(git tag -l --format='%(contents)' "$TAG")" "$TAG" || true
+          for file in $LATEX_SUCCESSES; do
+            pdf="${file%.*}.pdf"
+            echo "Delivering file $pdf"
+            gh release upload "$TAG" "$pdf" --clobber
+          done
+        fi
