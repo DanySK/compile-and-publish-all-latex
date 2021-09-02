@@ -24,12 +24,18 @@ runs:
       run: |
         GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}"
         echo $GITHUB_TOKEN
-        if [[ $GITHUB_REF == 'refs/heads/master' || $GITHUB_REF == 'refs/heads/main' || $GITHUB_REF == 'refs/heads/default' || $GITHUB_REF == "refs/tags"* ]] then
-          TAG=$(git describe --tags --exact-match HEAD)
-          hub release create -m "$(git tag -l --format='%(contents)' "$TAG")" "$TAG" || true
-          for file in $LATEX_SUCCESSES; do
-            pdf="${file%.*}.pdf"
-            echo "Delivering file $pdf"
-            gh release upload "$TAG" "$pdf" --clobber
-          done
+        if [[ -n $GITHUB_TOKEN ]]; then
+          if [[ $GITHUB_REF == 'refs/heads/master'
+              || $GITHUB_REF == 'refs/heads/main'
+              || $GITHUB_REF == 'refs/heads/default'
+              || $GITHUB_REF == "refs/tags"*
+          ]]; then
+            TAG=$(git describe --tags --exact-match HEAD)
+            hub release create -m "$(git tag -l --format='%(contents)' "$TAG")" "$TAG" || true
+            for file in $LATEX_SUCCESSES; do
+              pdf="${file%.*}.pdf"
+              echo "Delivering file $pdf"
+              gh release upload "$TAG" "$pdf" --clobber
+            done
+          fi
         fi
