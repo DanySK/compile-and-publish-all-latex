@@ -1,0 +1,32 @@
+name: 'Compile and publish all LaTeX'
+description: 'Checkout, compile LaTeX, compute a version, and deploy on GitHub in one shot.'
+runs:
+  using: "composite"
+  steps:
+    - name: Make ImageMagik permissive
+      run: sudo sed -i 's/rights=".*"/rights="all"/' /etc/ImageMagick-6/policy.xml
+    # Checkout the repository
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        submodules: recursive
+    - name: Fetch tags
+      shell: bash
+      run: git fetch --tags -f
+    - name: Compile LaTeX
+      uses: DanySK/compile-latex-action@0.3.2
+    - name: Autotag
+      uses: DanySK/semver-autotag-action@0.1.0
+    - name: Deploy
+      if: ${{ startsWith(github.ref, 'refs/tags/') || github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main' || github.ref == 'refs/heads/default' }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        TAG=$(git describe --tags --exact-match HEAD)
+        hub release create -m "$(git tag -l --format='%(contents)' "$TAG")" "$TAG" || true
+        for file in $LATEX_SUCCESSES; do
+          pdf="${file%.*}.pdf"
+          echo "Delivering file $pdf"
+          gh release upload "$TAG" "$pdf" --clobber
+        done
