@@ -8,13 +8,7 @@ runs:
       run: sudo sed -i 's/rights=".*"/rights="all"/' /etc/ImageMagick-6/policy.xml
     # Checkout the repository
     - name: Checkout
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-        submodules: recursive
-    - name: Fetch tags
-      shell: bash
-      run: git fetch --tags -f
+      uses: danysk/action-checkout@master
     - name: Compile LaTeX
       uses: DanySK/compile-latex-action@0.3.2
     - name: Autotag
