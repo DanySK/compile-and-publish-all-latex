@@ -24,10 +24,10 @@ runs:
           ]]; then
             TAG=$(git describe --tags --exact-match HEAD)
             hub release create -m "$(git tag -l --format='%(contents)' "$TAG")" "$TAG" || true
-            for file in $LATEX_SUCCESSES; do
+            while IFS= read -r file; do
               pdf="${file%.*}.pdf"
               echo "Delivering file $pdf"
               gh release upload "$TAG" "$pdf" --clobber
-            done
+            done <<< "$LATEX_SUCCESSES"
           fi
         fi
