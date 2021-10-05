@@ -1,3 +1,19 @@
+# Get your LaTeX files compiled and released on GitHub
+
+```yaml
+name: Build LaTeX and deploy on GitHub Releases
+on:
+  push:
+
+jobs:
+  Setup-Compile-Deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: DanySK/compile-and-publish-all-latex@0.1.5
+```
+
 # TODOS:
 
 1. get https://github.com/renovatebot/renovate/pull/11533 merged
