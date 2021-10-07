@@ -9,10 +9,6 @@ runs:
     # Checkout the repository
     - name: Checkout
       uses: danysk/action-checkout@master
-    - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 3.0.2
-        bundler-cache: true
     - name: Compile LaTeX
       uses: DanySK/compile-latex-action@0.3.22
     - name: Autotag
