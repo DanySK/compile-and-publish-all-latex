@@ -11,7 +11,7 @@ jobs:
     steps:
       - env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        uses: DanySK/compile-and-publish-all-latex@0.1.5
+        uses: DanySK/compile-and-publish-all-latex@master
 ```
 
 # TODOS:
