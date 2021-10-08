@@ -1,5 +1,7 @@
 # Get your LaTeX files compiled and released on GitHub
 
+This composite action should provide an all-in-one solution for having your LaTeX documents compiled and published.
+
 ```yaml
 name: Build LaTeX and deploy on GitHub Releases
 on:
@@ -14,10 +16,4 @@ jobs:
         uses: DanySK/compile-and-publish-all-latex@master
 ```
 
-# TODOS:
-
-1. get https://github.com/renovatebot/renovate/pull/11533 merged
-2. write action.yml
-3. create a testing workflow:
-  1. But HOW?
-4. Update this readme 
+Maybe pick the latest version instead of `master`...
