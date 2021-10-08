@@ -4,6 +4,10 @@ on:
     tags: '*'
     branches:
       - master
+    paths-ignore:
+      - 'README.md'
+      - 'CHANGELOG.md'
+      - 'LICENSE'
     
 jobs:
   Build-And-Deploy-Container:
