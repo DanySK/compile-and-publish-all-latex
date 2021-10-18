@@ -11,9 +11,9 @@ jobs:
   Setup-Compile-Deploy:
     runs-on: ubuntu-latest
     steps:
-      - env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        uses: DanySK/compile-and-publish-all-latex@master
+      - uses: DanySK/compile-and-publish-all-latex@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
 Maybe pick the latest version instead of `master`...
