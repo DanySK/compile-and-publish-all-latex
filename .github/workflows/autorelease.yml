@@ -1,4 +1,4 @@
-name: Build container image and deploy on dockerhub
+name: Create a Release
 on:
   push:
     tags: '*'
@@ -10,7 +10,7 @@ on:
       - 'LICENSE'
     
 jobs:
-  Build-And-Deploy-Container:
+  Create-Release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
