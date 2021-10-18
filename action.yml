@@ -1,5 +1,9 @@
 name: 'Compile and publish all LaTeX'
 description: 'Checkout, compile LaTeX, compute a version, and deploy on GitHub in one shot.'
+inputs:
+  token:  # github token
+    description: 'Github token for deployment. Skips deployment otherwise.'
+    required: true
 runs:
   using: "composite"
   steps:
@@ -8,15 +12,20 @@ runs:
       run: sudo sed -i 's/rights=".*"/rights="all"/' /etc/ImageMagick-6/policy.xml
     # Checkout the repository
     - name: Checkout
-      uses: danysk/action-checkout@master
+      uses: danysk/action-checkout@0.1.0
     - name: Compile LaTeX
       uses: DanySK/compile-latex-action@0.3.47
     - name: Autotag
       uses: DanySK/semver-autotag-action@0.1.0
     - name: Deploy
+      env:
+        GITHUB_TOKEN: ${{ inputs.token }}
       shell: bash
       run: |
-        if [[ -n $GITHUB_TOKEN ]]; then
+        if [[ -z $GITHUB_TOKEN ]]; then
+          echo "No token set, cannot deploy"
+          false
+        else
           if [[ $GITHUB_REF == 'refs/heads/master'
               || $GITHUB_REF == 'refs/heads/main'
               || $GITHUB_REF == 'refs/heads/default'
@@ -29,5 +38,7 @@ runs:
               echo "Delivering file $pdf"
               gh release upload "$TAG" "$pdf" --clobber
             done <<< "$LATEX_SUCCESSES"
+          else
+            echo "Not running deployment from unknown source: $
           fi
         fi
