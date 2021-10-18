@@ -1,7 +1,6 @@
 name: Create a Release
 on:
   push:
-    tags: '*'
     branches:
       - master
     paths-ignore:
