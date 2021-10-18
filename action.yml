@@ -39,6 +39,6 @@ runs:
               gh release upload "$TAG" "$pdf" --clobber
             done <<< "$LATEX_SUCCESSES"
           else
-            echo "Not running deployment from unknown source: $
+            echo "Not running deployment from unknown source: $GITHUB_REF"
           fi
         fi
