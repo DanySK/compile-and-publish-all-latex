@@ -13,8 +13,6 @@ on:
 jobs:
   release:
     if: github.event_name == 'push'
-    needs:
-      - test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
