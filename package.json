@@ -1,0 +1,12 @@
+{
+  "name": "build-check-deploy-gradle-action",
+  "description": "A composite action taking care of running a complete CI pipeline on a Gradle project",
+  "author": "Danilo Pianini (https://danysk.github.io)",
+  "devDependencies": {
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1"
+  },
+  "engines": {
+    "node": "16.13"
+  }
+}

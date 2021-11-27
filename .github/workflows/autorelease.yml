@@ -1,32 +1,27 @@
 name: Create a Release
 on:
   push:
-    branches:
-      - master
+    branches-ignore:
+      - 'renovate/**'
     paths-ignore:
       - 'README.md'
       - 'CHANGELOG.md'
       - 'LICENSE'
-    
+  pull_request:
+  workflow_dispatch:
+
 jobs:
-  Create-Release:
+  release:
+    if: github.event_name == 'push'
+    needs:
+      - test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: danysk/action-checkout@0.1.0
-      - name: Compute version
+        uses: actions/checkout@v2.4.0
+      - name: Semantic Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          LAST_TAG=$(git describe --tags --abbrev=0)
-          MAJOR_MINOR=${LAST_TAG%.*}
-          COMMIT_COUNT_FROM_TAG="$(git log --oneline "$MAJOR_MINOR.0".. | wc -l)"
-          VERSION="$MAJOR_MINOR.$COMMIT_COUNT_FROM_TAG"
-          echo Version has been computed as $VERSION
-          echo VERSION="$VERSION" >> $GITHUB_ENV
-          echo Version has been computed as $VERSION
-      - uses: ncipollo/release-action@v1
-        if: ${{ github.event_name != 'pull_request' }}
-        name: Create GitHub Release
-        with:
-          tag: ${{ env.VERSION }}
-          replacesArtifacts: true
-          token: ${{ secrets.GITHUB_TOKEN }}
+          npm install
+          npx semantic-release
