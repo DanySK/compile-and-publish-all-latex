@@ -14,7 +14,7 @@ runs:
     - name: Checkout
       uses: danysk/action-checkout@0.1.0
     - name: Compile LaTeX
-      uses: DanySK/compile-latex-action@0.3.53
+      uses: DanySK/compile-latex-action@0.3.54
     - name: Autotag
       uses: DanySK/semver-autotag-action@0.1.0
     - name: Deploy
