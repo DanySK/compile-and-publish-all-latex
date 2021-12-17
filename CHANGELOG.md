@@ -1,3 +1,10 @@
+## [0.2.4](https://github.com/DanySK/compile-and-publish-all-latex/compare/0.2.3...0.2.4) (2021-12-17)
+
+
+### Bug Fixes
+
+* **deps:** update danysk/action-checkout action to v0.2.1 ([3f9a018](https://github.com/DanySK/compile-and-publish-all-latex/commit/3f9a018702d87c1b40880b8a27b83c1fd45431e1))
+
 ## [0.2.3](https://github.com/DanySK/compile-and-publish-all-latex/compare/0.2.2...0.2.3) (2021-12-12)
 
 
