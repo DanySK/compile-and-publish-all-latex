@@ -38,7 +38,7 @@ runs:
       uses: DanySK/auto-latexdiff@master # Please select a stable release here!
       id: latexdiff
       if: inputs.diff-enable == 'true'
-      with: # This is the default configuration. Remove all parameters that you do not change
+      with:
         files: ${{ inputs.diff-files }}
         include-lightweight-tags: ${{ inputs.diff-lightweight-tags }}
         tags: ${{ inputs.diff-tag-regex }}
