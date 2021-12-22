@@ -2,8 +2,27 @@ name: 'Compile and publish all LaTeX'
 description: 'Checkout, compile LaTeX, compute a version, and deploy on GitHub in one shot.'
 inputs:
   token:  # github token
-    description: 'Github token for deployment. Skips deployment otherwise.'
+    description: 'Github token for deployment.'
     required: true
+  diff-enable:
+    description: 'Github token for deployment. Skips deployment otherwise.'
+    required: false
+    default: false
+  diff-files:
+    description: Latex files (globs) to diff, if diff enabled
+    required: false
+    default: |
+      **/*.tex
+  diff-lightweight-tags:
+    description: Whether non-annotated tags should be considered
+    required: false
+    default: false
+  diff-tag-regex:
+    description: Newline-separated list of tags to create differential documents with. Ruby Regex syntax supported.
+    required: false
+    default: |
+      .*
+
 runs:
   using: "composite"
   steps:
@@ -15,6 +34,14 @@ runs:
       uses: danysk/action-checkout@0.2.1
     - name: Compile LaTeX
       uses: DanySK/compile-latex-action@0.3.57
+    - name: Prepare the differential documents
+      uses: DanySK/auto-latexdiff@master # Please select a stable release here!
+      id: latexdiff
+      if: inputs.diff-enable == 'true'
+      with: # This is the default configuration. Remove all parameters that you do not change
+        files: ${{ inputs.diff-files }}
+        include-lightweight-tags: ${{ inputs.diff-lightweight-tags }}
+        tags: ${{ inputs.diff-tag-regex }}
     - name: Autotag
       uses: DanySK/semver-autotag-action@0.1.0
     - name: Deploy
