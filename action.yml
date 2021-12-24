@@ -36,8 +36,6 @@ runs:
     # Checkout the repository
     - name: Checkout
       uses: danysk/action-checkout@0.2.1
-    - name: Compile LaTeX
-      uses: DanySK/compile-latex-action@0.3.57
     - name: Prepare the differential documents
       uses: DanySK/auto-latexdiff@master # Please select a stable release here!
       id: latexdiff
@@ -46,6 +44,8 @@ runs:
         files: ${{ inputs.diff-files }}
         include-lightweight-tags: ${{ inputs.diff-lightweight-tags }}
         tags: ${{ inputs.diff-tag-regex }}
+    - name: Compile LaTeX
+      uses: DanySK/compile-latex-action@0.3.57
     - name: Autotag
       uses: DanySK/semver-autotag-action@0.1.0
     - name: Deploy
