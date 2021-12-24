@@ -2,6 +2,8 @@ branches:
   - master
 extends:
   - semantic-release-preconfigured-conventional-commits
-plugins: 
+plugins:
+  - "@@semantic-release/release-notes-generator"
+  - "@semantic-release/changelog"
   - "@semantic-release/github"
   - "@semantic-release/git"
