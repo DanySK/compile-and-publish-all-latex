@@ -1,3 +1,11 @@
+## [0.3.1](https://github.com/DanySK/compile-and-publish-all-latex/compare/0.3.0...0.3.1) (2021-12-24)
+
+
+### Bug Fixes
+
+* **release:** fix module name ([98f094d](https://github.com/DanySK/compile-and-publish-all-latex/commit/98f094df26cc00a3d84b392c5f2814a63020600a))
+* **release:** reapply the missing plugins ([c819bb1](https://github.com/DanySK/compile-and-publish-all-latex/commit/c819bb1c6b0485f3e1a013593c4c052d42359440))
+
 ## [0.2.6](https://github.com/DanySK/compile-and-publish-all-latex/compare/0.2.5...0.2.6) (2021-12-19)
 
 
