@@ -1,17 +1,54 @@
-name: Create a Release
+name: Test and create a release
 on:
   push:
     branches-ignore:
       - 'renovate/**'
     paths-ignore:
-      - 'README.md'
       - 'CHANGELOG.md'
       - 'LICENSE'
   pull_request:
   workflow_dispatch:
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.4.0
+        with:
+          path: action
+      - name: Move the action outside the workspace
+        run: sudo mv action ..
+      - name: Compute test version
+        id: ieee
+        shell: bash
+        run: |
+          # Idea: the regex matcher of Renovate keeps this string up to date automatically
+          # The version is extracted and used to access the correct version of the scripts
+          USES=$(cat <<TRICK_RENOVATE
+          - uses: DanySK/Paper-2021-AppliedSoftComputing-Pulverization@7392784f9d3b8804cda8a190c3d22ede082fbd5f
+          TRICK_RENOVATE
+          )
+          echo "Scripts update line: \"$USES\""
+          echo "Computed version: \"${USES#*@}\""
+          echo "::set-output name=version::${USES#*@}"
+      - uses: actions/checkout@v2.4.0
+        with:
+          repository: DanySK/Paper-2021-AppliedSoftComputing-Pulverization
+          ref: ${{ steps.ieee.outputs.version }}
+          path: test
+          fetch-depth: 0
+          token: ${{ secrets.DEPLOYMENT_TOKEN }}
+      - uses: ./../action
+        with:
+          diff-enable: true
+          diff-files: 'paper*ieee*.tex'
+          diff-tag-regex: '3\.0\.0'
+          publish-enable: false
+
   release:
+    needs:
+      - test
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
