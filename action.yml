@@ -22,6 +22,10 @@ inputs:
     required: false
     default: |
       .*
+  publish-enable:
+    description: 'Whether the results should be deployed on GitHub. Defaults to true.'
+    required: false
+    default: true
 
 runs:
   using: "composite"
@@ -45,6 +49,7 @@ runs:
     - name: Autotag
       uses: DanySK/semver-autotag-action@0.1.0
     - name: Deploy
+      if: inputs.publish-enable == 'true'
       env:
         GITHUB_TOKEN: ${{ inputs.token }}
       shell: bash
