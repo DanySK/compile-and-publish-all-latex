@@ -1,3 +1,10 @@
+## [0.3.4](https://github.com/DanySK/compile-and-publish-all-latex/compare/0.3.3...0.3.4) (2021-12-26)
+
+
+### Bug Fixes
+
+* **deps:** update danysk/compile-latex-action action to v0.3.63 ([ab44714](https://github.com/DanySK/compile-and-publish-all-latex/commit/ab44714d9240c844cb767747925ffdf8558b6373))
+
 ## [0.3.3](https://github.com/DanySK/compile-and-publish-all-latex/compare/0.3.2...0.3.3) (2021-12-26)
 
 
