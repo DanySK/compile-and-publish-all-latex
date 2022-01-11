@@ -1,3 +1,31 @@
+## [1.0.0](https://github.com/DanySK/compile-and-publish-all-latex/compare/0.3.10...1.0.0) (2022-01-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* stabilize the version of compile-latex-action
+
+### Bug Fixes
+
+* stabilize the version of compile-latex-action ([110d9d2](https://github.com/DanySK/compile-and-publish-all-latex/commit/110d9d262d9ba02cb77a89a6be58f3707d3024cd))
+
+
+### Build and continuous integration
+
+* **release:** enable commit-analyzer ([93a4d88](https://github.com/DanySK/compile-and-publish-all-latex/commit/93a4d88799036f9d6b907b9113ca490d354dd029))
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.0 ([6d63a34](https://github.com/DanySK/compile-and-publish-all-latex/commit/6d63a34e21f7f4d0da2e000cd1f0df9e52fc93a0))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.1 ([0713ba7](https://github.com/DanySK/compile-and-publish-all-latex/commit/0713ba7220d3c0117327e7ea117877a446dd0464))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.3 ([f5c7e68](https://github.com/DanySK/compile-and-publish-all-latex/commit/f5c7e683d21bc10d2de8093cb9e461e532212b4e))
+
+
+### General maintenance
+
+* **release:** correctly enable semantic commit conventions ([a45e5d6](https://github.com/DanySK/compile-and-publish-all-latex/commit/a45e5d6ba006e6523dbb6f0ad049bb79744665cb))
+
 ## [0.3.10](https://github.com/DanySK/compile-and-publish-all-latex/compare/0.3.9...0.3.10) (2021-12-28)
 
 
