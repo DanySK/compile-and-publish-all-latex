@@ -1,3 +1,10 @@
+### [1.0.1](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.0...1.0.1) (2022-01-11)
+
+
+### Dependency updates
+
+* **core-deps:** update danysk/auto-latexdiff action to v64 ([81c7227](https://github.com/DanySK/compile-and-publish-all-latex/commit/81c72278c0437f47b4d4609c4e117964898ae98f))
+
 ## [1.0.0](https://github.com/DanySK/compile-and-publish-all-latex/compare/0.3.10...1.0.0) (2022-01-11)
 
 
