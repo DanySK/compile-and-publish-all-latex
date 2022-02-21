@@ -37,7 +37,7 @@ runs:
     - name: Checkout
       uses: danysk/action-checkout@0.2.1
     - name: Prepare the differential documents
-      uses: DanySK/auto-latexdiff@64.1.0
+      uses: DanySK/auto-latexdiff@64.1.1
       id: latexdiff
       if: inputs.diff-enable == 'true'
       with:
