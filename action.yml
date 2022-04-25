@@ -45,7 +45,7 @@ runs:
         include-lightweight-tags: ${{ inputs.diff-lightweight-tags }}
         tags: ${{ inputs.diff-tag-regex }}
     - name: Compile LaTeX
-      uses: DanySK/compile-latex-action@0.3.82
+      uses: DanySK/compile-latex-action@0.3.83
     - name: Autotag
       uses: DanySK/semver-autotag-action@0.1.0
     - name: Deploy
