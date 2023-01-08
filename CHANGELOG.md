@@ -1,3 +1,15 @@
+## [1.0.39](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.38...1.0.39) (2023-01-08)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.3.0 ([222b459](https://github.com/DanySK/compile-and-publish-all-latex/commit/222b45923427a310265b84ef23694d8ed74d64a7))
+
+
+### Dependency updates
+
+* **core-deps:** update danysk/action-checkout action to v0.2.5 ([49bf757](https://github.com/DanySK/compile-and-publish-all-latex/commit/49bf757f774513728cce7a74fc3d75db67faa15c))
+
 ## [1.0.38](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.37...1.0.38) (2022-12-19)
 
 
