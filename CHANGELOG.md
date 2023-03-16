@@ -1,3 +1,19 @@
+## [1.0.40](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.39...1.0.40) (2023-03-16)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.4.0 ([8953b4c](https://github.com/DanySK/compile-and-publish-all-latex/commit/8953b4cc4dc13a582bab45d7d68e82dc1ec76ca6))
+
+
+### Dependency updates
+
+* **core-deps:** update danysk/action-checkout action to v0.2.6 ([129d395](https://github.com/DanySK/compile-and-publish-all-latex/commit/129d395ac979d52fea9f3e845e7c4bcb4f86153d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.16 ([77a50d6](https://github.com/DanySK/compile-and-publish-all-latex/commit/77a50d655ded02527688d6ab75f8858ae431dede))
+* **deps:** update node.js to 18.13 ([1dbdc46](https://github.com/DanySK/compile-and-publish-all-latex/commit/1dbdc4674506ca31cd39f00ca78ee491418855a4))
+* **deps:** update node.js to 18.14 ([a5093a5](https://github.com/DanySK/compile-and-publish-all-latex/commit/a5093a544c2b74d4b627396072b68c44b8e52e6c))
+* **deps:** update node.js to 18.15 ([39d2eb6](https://github.com/DanySK/compile-and-publish-all-latex/commit/39d2eb61771bb983a7460d33ff237e5719032401))
+
 ## [1.0.39](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.38...1.0.39) (2023-01-08)
 
 
