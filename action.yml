@@ -35,7 +35,7 @@ runs:
       run: sudo sed -i 's/rights=".*"/rights="all"/' /etc/ImageMagick-6/policy.xml
     # Checkout the repository
     - name: Checkout
-      uses: danysk/action-checkout@0.2.9
+      uses: danysk/action-checkout@0.2.10
     - name: Prepare the differential documents
       uses: DanySK/auto-latexdiff@64.1.1
       id: latexdiff
