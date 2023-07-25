@@ -1,3 +1,25 @@
+## [1.0.50](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.49...1.0.50) (2023-07-25)
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.33 ([dbac83c](https://github.com/DanySK/compile-and-publish-all-latex/commit/dbac83c959cf978efd271205ac98caaef8713d35))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.34 ([ce2f2d3](https://github.com/DanySK/compile-and-publish-all-latex/commit/ce2f2d346e2eb136decd32638b417df3d3fcd347))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.35 ([f6a834b](https://github.com/DanySK/compile-and-publish-all-latex/commit/f6a834b021200722aa6e236e2fb9fe62d85280d0))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.37 ([969dec0](https://github.com/DanySK/compile-and-publish-all-latex/commit/969dec0e0c8a572394b2eb8eb827fdbde77706f7))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.38 ([dd706d7](https://github.com/DanySK/compile-and-publish-all-latex/commit/dd706d73ef3065fed0d9e0fc8044b6ecde44595b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.39 ([a41bb2d](https://github.com/DanySK/compile-and-publish-all-latex/commit/a41bb2d539d26bfc6e63158604997aafb98f5889))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.40 ([69539b1](https://github.com/DanySK/compile-and-publish-all-latex/commit/69539b17bffa83875033cc31d74aeb0b7eacbdd6))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.41 ([2d60860](https://github.com/DanySK/compile-and-publish-all-latex/commit/2d608605188a3b2b4eb2ea19f47c0225a93a7e50))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.42 ([61b0842](https://github.com/DanySK/compile-and-publish-all-latex/commit/61b08427ce66d8a4486091a98beb6356fd2990bb))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.43 ([4946afa](https://github.com/DanySK/compile-and-publish-all-latex/commit/4946afaba9e68f338386e3abee47c41fbda8a2aa))
+* **deps:** update node.js to 18.17 ([1efd94e](https://github.com/DanySK/compile-and-publish-all-latex/commit/1efd94efe58ee47293dd3139ffce80abecf95653))
+
+
+### Documentation
+
+* document permissions ([46637c7](https://github.com/DanySK/compile-and-publish-all-latex/commit/46637c76fc6e81dcf7612325503b0b7a0c1dd626))
+
 ## [1.0.49](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.48...1.0.49) (2023-06-10)
 
 
