@@ -12,6 +12,8 @@ on:
 jobs:
   Setup-Compile-Deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: DanySK/compile-and-publish-all-latex@master
         with:
@@ -37,6 +39,8 @@ on:
 jobs:
   Setup-Compile-Deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: DanySK/compile-and-publish-all-latex@master
         with:
