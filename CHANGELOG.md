@@ -1,3 +1,24 @@
+## [1.0.53](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.52...1.0.53) (2023-09-04)
+
+
+### Dependency updates
+
+* **core-deps:** update danysk/action-checkout action to v0.2.12 ([18f084f](https://github.com/DanySK/compile-and-publish-all-latex/commit/18f084fedfef2f29aea700eaad01b979566380f3))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.44 ([818c41c](https://github.com/DanySK/compile-and-publish-all-latex/commit/818c41c422d8b16ae3e8682f6038f02e092c6177))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.46 ([c0d8892](https://github.com/DanySK/compile-and-publish-all-latex/commit/c0d88921d2bb5abf0b25afb093ddf43cd87daa3d))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.47 ([2de4115](https://github.com/DanySK/compile-and-publish-all-latex/commit/2de41157de48c391ebcd785821f5953355f0fced))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.48 ([c81cabc](https://github.com/DanySK/compile-and-publish-all-latex/commit/c81cabc8f1e58d831fb5fa97f222dbe2f6785553))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.50 ([c908638](https://github.com/DanySK/compile-and-publish-all-latex/commit/c90863834cfb28a74f21c984cbe169528802c7a0))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.51 ([906f1b8](https://github.com/DanySK/compile-and-publish-all-latex/commit/906f1b8c0a40cd16512eb9d9b9a497cbca2ab800))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.52 ([63259e9](https://github.com/DanySK/compile-and-publish-all-latex/commit/63259e9674557808767c786f36469a9bef7a153b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.53 ([4875c1f](https://github.com/DanySK/compile-and-publish-all-latex/commit/4875c1f9c4a530dc1aa70d7355589923bc2d34a7))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.6.0 ([762339c](https://github.com/DanySK/compile-and-publish-all-latex/commit/762339cab85d4d56d859a4acf62805b923352ae9))
+* **deps:** update actions/checkout action to v4 ([b47f0c6](https://github.com/DanySK/compile-and-publish-all-latex/commit/b47f0c60e7f7fd26f6833150b078970ead7bafb6))
+
 ## [1.0.52](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.51...1.0.52) (2023-08-25)
 
 
