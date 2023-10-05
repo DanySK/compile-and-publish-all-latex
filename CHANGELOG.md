@@ -1,3 +1,28 @@
+## [1.0.57](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.56...1.0.57) (2023-10-05)
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.60 ([c936bf6](https://github.com/DanySK/compile-and-publish-all-latex/commit/c936bf63dff7722fdda0c2d3a683d7932c1e6b97))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.61 ([a77b12b](https://github.com/DanySK/compile-and-publish-all-latex/commit/a77b12b679b05e73bb7d44d2945b6d3a8acc4126))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.62 ([4500f87](https://github.com/DanySK/compile-and-publish-all-latex/commit/4500f8748cf96fc8571c6a22b2a64f3f7b560b63))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.63 ([f36cc9a](https://github.com/DanySK/compile-and-publish-all-latex/commit/f36cc9a412957f9154c1f307844531ad731038c0))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.64 ([dcfb2b8](https://github.com/DanySK/compile-and-publish-all-latex/commit/dcfb2b82a5dd1e41278596e1b8debe0ee464c9f9))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.65 ([4115948](https://github.com/DanySK/compile-and-publish-all-latex/commit/41159487762e32ec015e8fcc814a92d8f6a1181f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.66 ([20fc081](https://github.com/DanySK/compile-and-publish-all-latex/commit/20fc08193a61b964aba334759ca0ca4db4fe9fa5))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.67 ([844e193](https://github.com/DanySK/compile-and-publish-all-latex/commit/844e193fb468ea4b66fee28805f6f1019c082293))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.68 ([c923082](https://github.com/DanySK/compile-and-publish-all-latex/commit/c9230827f6b626fc589a805e93cebdbad5c34fda))
+
+
+### Bug Fixes
+
+* switch from hub to gh ([e165444](https://github.com/DanySK/compile-and-publish-all-latex/commit/e16544429f73caadb839dd556b93df16835438ed))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.0 ([10f4ee6](https://github.com/DanySK/compile-and-publish-all-latex/commit/10f4ee63b4146e3cc432bce36abc06b0c1526d3c))
+
 ## [1.0.56](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.55...1.0.56) (2023-09-23)
 
 
