@@ -1,3 +1,10 @@
+## [1.0.58](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.57...1.0.58) (2023-10-05)
+
+
+### Bug Fixes
+
+* use `--target` to try to create a branch on the fly ([cad2b67](https://github.com/DanySK/compile-and-publish-all-latex/commit/cad2b6731a60a876513849dcc529d08b21ec765a))
+
 ## [1.0.57](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.56...1.0.57) (2023-10-05)
 
 
