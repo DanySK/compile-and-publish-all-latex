@@ -64,7 +64,7 @@ runs:
               || $GITHUB_REF == "refs/tags"*
           ]]; then
             TAG=$(git describe --tags --exact-match HEAD)
-            gh release create -t "$(git tag -l --format='%(contents)' "$TAG")" "$TAG" || true
+            gh release create --target "$TAG" "$TAG" || true
             while IFS= read -r file; do
               pdf="${file%.*}.pdf"
               echo "Delivering file $pdf"
