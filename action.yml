@@ -64,7 +64,9 @@ runs:
               || $GITHUB_REF == "refs/tags"*
           ]]; then
             TAG=$(git describe --tags --exact-match HEAD)
-            gh release create --target "$TAG" "$TAG" || true
+            echo "Preparing release $TAG"
+            git push --tags && echo "Tag $TAG successfully pushed" || true
+            gh release create --notes-from-tag "$TAG" || true
             while IFS= read -r file; do
               pdf="${file%.*}.pdf"
               echo "Delivering file $pdf"
