@@ -1,3 +1,10 @@
+## [1.0.59](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.58...1.0.59) (2023-10-06)
+
+
+### Bug Fixes
+
+* push tags before creating releases ([e25b32d](https://github.com/DanySK/compile-and-publish-all-latex/commit/e25b32d24b2103e01f9851373275045898a62431))
+
 ## [1.0.58](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.57...1.0.58) (2023-10-05)
 
 
