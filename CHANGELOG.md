@@ -1,3 +1,10 @@
+## [1.0.60](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.59...1.0.60) (2023-10-09)
+
+
+### Bug Fixes
+
+* remove the tag annotation before pushing ([1e00d6a](https://github.com/DanySK/compile-and-publish-all-latex/commit/1e00d6aea589040eeed4ca70178157e48bba4172))
+
 ## [1.0.59](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.58...1.0.59) (2023-10-06)
 
 
