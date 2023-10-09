@@ -65,6 +65,8 @@ runs:
           ]]; then
             TAG=$(git describe --tags --exact-match HEAD)
             echo "Preparing release $TAG"
+            git tag --delete "$TAG"
+            git tag "$TAG"
             git push --tags && echo "Tag $TAG successfully pushed" || true
             gh release create --notes-from-tag "$TAG" || true
             while IFS= read -r file; do
