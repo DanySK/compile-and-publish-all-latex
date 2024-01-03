@@ -1,3 +1,19 @@
+## [2.0.0](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.1.0...2.0.0) (2024-01-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* enable docker images caching
+
+### Performance improvements
+
+* enable docker images caching ([41a5e82](https://github.com/DanySK/compile-and-publish-all-latex/commit/41a5e8238a8328d37d69060f7a89604161c15270))
+
+
+### General maintenance
+
+* update the ignore list ([9db6ce8](https://github.com/DanySK/compile-and-publish-all-latex/commit/9db6ce8ea93060e41a5419848d0c1e20960cb43b))
+
 ## [1.1.0](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.70...1.1.0) (2024-01-03)
 
 
