@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.70...1.1.0) (2024-01-03)
+
+
+### Features
+
+* disable support for latex-autodiff ([45eeba7](https://github.com/DanySK/compile-and-publish-all-latex/commit/45eeba7acdb4f76d658b098837d746949f292f43))
+
 ## [1.0.70](https://github.com/DanySK/compile-and-publish-all-latex/compare/1.0.69...1.0.70) (2024-01-01)
 
 
