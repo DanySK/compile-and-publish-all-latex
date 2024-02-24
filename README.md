@@ -22,6 +22,9 @@ jobs:
 
 Maybe pick the latest version instead of `master`...
 
+> [!NOTE]  
+> LaTeX is compiled with [DanySK/compile-latex-action](https://github.com/DanySK/compile-latex-action?tab=readme-ov-file#compile-latex-action), read its documentation to avoid pitfalls!
+
 ## Generating diffs
 
 This action supports the generation of differential documents by wrappin [auto-latexdiff](https://github.com/DanySK/auto-latexdiff).
