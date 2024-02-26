@@ -1,3 +1,10 @@
+## [2.0.12](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.11...2.0.12) (2024-02-26)
+
+
+### Documentation
+
+* add note to readme ([5bec385](https://github.com/DanySK/compile-and-publish-all-latex/commit/5bec3851bcee7cf5d9c612f7d8dae5d04c74aa36))
+
 ## [2.0.11](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.10...2.0.11) (2024-02-26)
 
 
