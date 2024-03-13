@@ -1,3 +1,10 @@
+## [2.0.16](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.15...2.0.16) (2024-03-13)
+
+
+### Dependency updates
+
+* **core-deps:** update scribemd/docker-cache action to v0.4.0 ([ae4900c](https://github.com/DanySK/compile-and-publish-all-latex/commit/ae4900cf5d2afd4f88305eedf0562030b162bb4b))
+
 ## [2.0.15](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.14...2.0.15) (2024-03-10)
 
 
