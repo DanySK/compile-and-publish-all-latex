@@ -1,3 +1,10 @@
+## [2.0.22](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.21...2.0.22) (2024-03-27)
+
+
+### Dependency updates
+
+* **core-deps:** update scribemd/docker-cache action to v0.5.0 ([3324f14](https://github.com/DanySK/compile-and-publish-all-latex/commit/3324f14b818e7a1bc0044ad5d9d168091fc31cb1))
+
 ## [2.0.21](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.20...2.0.21) (2024-03-24)
 
 
