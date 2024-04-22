@@ -1,3 +1,16 @@
+## [2.0.24](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.23...2.0.24) (2024-04-22)
+
+
+### Dependency updates
+
+* **core-deps:** update danysk/action-checkout action to v0.2.15 ([d2b4093](https://github.com/DanySK/compile-and-publish-all-latex/commit/d2b4093a73d13b2437213bf4dd62420966289a2f))
+* **deps:** update node.js to 20.12 ([6b318fc](https://github.com/DanySK/compile-and-publish-all-latex/commit/6b318fc93eed066edff30ee5c127c9227ee6bd1a))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v4.1.3 ([02bc0d9](https://github.com/DanySK/compile-and-publish-all-latex/commit/02bc0d99c4da448efc4a15ec68a48838be2581b4))
+
 ## [2.0.23](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.22...2.0.23) (2024-03-27)
 
 
