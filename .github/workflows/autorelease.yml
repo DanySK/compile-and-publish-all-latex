@@ -16,6 +16,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.7
+      - name: Setup Node
+        run: |
+          sudo apt update
+          sudo npm cache clean -f
+          sudo npm install -g n
+          sudo n 20.17
       - name: Semantic Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
