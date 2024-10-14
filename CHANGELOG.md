@@ -1,3 +1,10 @@
+## [2.0.32](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.31...2.0.32) (2024-10-14)
+
+### Dependency updates
+
+* **core-deps:** update danysk/compile-latex-action action to v1.0.21 ([33b1fde](https://github.com/DanySK/compile-and-publish-all-latex/commit/33b1fde0a604a106b890b4651b82ded5fd1a3d83))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.111 ([d9b20a8](https://github.com/DanySK/compile-and-publish-all-latex/commit/d9b20a8e0cc2394639a9ca839dd7f39f425f4bd8))
+
 ## [2.0.31](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.30...2.0.31) (2024-10-08)
 
 ### Dependency updates
