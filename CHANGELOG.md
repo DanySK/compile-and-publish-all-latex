@@ -1,3 +1,9 @@
+## [2.0.35](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.34...2.0.35) (2024-10-16)
+
+### Dependency updates
+
+* **core-deps:** update danysk/compile-latex-action action to v1.0.24 ([f0a3ab7](https://github.com/DanySK/compile-and-publish-all-latex/commit/f0a3ab7bdd7787e169e36a1000777a6ad8ddfdc5))
+
 ## [2.0.34](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.33...2.0.34) (2024-10-16)
 
 ### Dependency updates
