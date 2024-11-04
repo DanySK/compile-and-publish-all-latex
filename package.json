@@ -3,7 +3,7 @@
   "description": "A composite action taking care of running a complete CI pipeline on a Gradle project",
   "author": "Danilo Pianini (https://danysk.github.io)",
   "devDependencies": {
-    "semantic-release-preconfigured-conventional-commits": "1.1.113"
+    "semantic-release-preconfigured-conventional-commits": "1.1.114"
   },
   "engines": {
     "node": "22.11"
