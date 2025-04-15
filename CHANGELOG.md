@@ -1,3 +1,13 @@
+## [2.0.55](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.54...2.0.55) (2025-04-15)
+
+### Dependency updates
+
+* **core-deps:** update danysk/compile-latex-action action to v1.0.44 ([#320](https://github.com/DanySK/compile-and-publish-all-latex/issues/320)) ([acd037a](https://github.com/DanySK/compile-and-publish-all-latex/commit/acd037af0263ef645138f76064eb464750b2f6cf))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.4.0 ([#319](https://github.com/DanySK/compile-and-publish-all-latex/issues/319)) ([65b5004](https://github.com/DanySK/compile-and-publish-all-latex/commit/65b50044c820f935413f020909ebc2d500ab7464))
+
 ## [2.0.54](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.53...2.0.54) (2025-04-12)
 
 ### Dependency updates
