@@ -1,3 +1,13 @@
+## [2.0.60](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.59...2.0.60) (2025-05-29)
+
+### Dependency updates
+
+* **core-deps:** update danysk/compile-latex-action action to v1.0.49 ([#332](https://github.com/DanySK/compile-and-publish-all-latex/issues/332)) ([7ae0c70](https://github.com/DanySK/compile-and-publish-all-latex/commit/7ae0c705c09032f85f6838eefa0507eba9369472))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.128 ([#328](https://github.com/DanySK/compile-and-publish-all-latex/issues/328)) ([70c2d41](https://github.com/DanySK/compile-and-publish-all-latex/commit/70c2d417f6dc1e6fee96c9c17f0b00bbb4b6ec55))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.129 ([#329](https://github.com/DanySK/compile-and-publish-all-latex/issues/329)) ([2ae2d59](https://github.com/DanySK/compile-and-publish-all-latex/commit/2ae2d59606057d0617428078d4583390dccd2fd9))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.131 ([#331](https://github.com/DanySK/compile-and-publish-all-latex/issues/331)) ([410be94](https://github.com/DanySK/compile-and-publish-all-latex/commit/410be94836ed107f5c3a225cd4861323495f417b))
+* **deps:** update node.js to 22.16 ([#330](https://github.com/DanySK/compile-and-publish-all-latex/issues/330)) ([ad031cc](https://github.com/DanySK/compile-and-publish-all-latex/commit/ad031ccf635abb374fe450a35ac7cffc5493dd19))
+
 ## [2.0.59](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.58...2.0.59) (2025-05-12)
 
 ### Dependency updates
