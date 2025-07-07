@@ -1,3 +1,15 @@
+## [2.0.61](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.60...2.0.61) (2025-07-07)
+
+### Dependency updates
+
+* **core-deps:** update danysk/compile-latex-action action to v2 ([#339](https://github.com/DanySK/compile-and-publish-all-latex/issues/339)) ([a594ee6](https://github.com/DanySK/compile-and-publish-all-latex/commit/a594ee6137c59b727d72967c8783970e86309809))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.132 ([#333](https://github.com/DanySK/compile-and-publish-all-latex/issues/333)) ([b8c29bf](https://github.com/DanySK/compile-and-publish-all-latex/commit/b8c29bf939692f6763090a856c1afec0e537c1c8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.133 ([#334](https://github.com/DanySK/compile-and-publish-all-latex/issues/334)) ([c182f79](https://github.com/DanySK/compile-and-publish-all-latex/commit/c182f7925c038da4b5c9a5e12984a17dc4c14dd1))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.134 ([#336](https://github.com/DanySK/compile-and-publish-all-latex/issues/336)) ([ae0175e](https://github.com/DanySK/compile-and-publish-all-latex/commit/ae0175ed0c2fb65dd750dec3859e00abd153c98f))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.135 ([#337](https://github.com/DanySK/compile-and-publish-all-latex/issues/337)) ([d690f56](https://github.com/DanySK/compile-and-publish-all-latex/commit/d690f56c4b9898f1e17ab7d4df261b6ea2dbfb6b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.136 ([#338](https://github.com/DanySK/compile-and-publish-all-latex/issues/338)) ([6569b2a](https://github.com/DanySK/compile-and-publish-all-latex/commit/6569b2a134241e18983689dc36cbc05e64a1e1e8))
+* **deps:** update node.js to 22.17 ([#335](https://github.com/DanySK/compile-and-publish-all-latex/issues/335)) ([fcdd9c2](https://github.com/DanySK/compile-and-publish-all-latex/commit/fcdd9c278158da50fd2d970512b64bae56c292cc))
+
 ## [2.0.60](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.59...2.0.60) (2025-05-29)
 
 ### Dependency updates
