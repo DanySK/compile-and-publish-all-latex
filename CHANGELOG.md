@@ -1,3 +1,10 @@
+## [2.0.67](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.66...2.0.67) (2025-09-02)
+
+### Dependency updates
+
+* **core-deps:** update danysk/compile-latex-action action to v2.1.1 ([#353](https://github.com/DanySK/compile-and-publish-all-latex/issues/353)) ([9f67d72](https://github.com/DanySK/compile-and-publish-all-latex/commit/9f67d72c97ce0666e993c7c9219f230cb3b0ede1))
+* **deps:** update node.js to 22.19 ([#352](https://github.com/DanySK/compile-and-publish-all-latex/issues/352)) ([ad959b5](https://github.com/DanySK/compile-and-publish-all-latex/commit/ad959b500b45f8499d93a67abb18f48cce6e2a23))
+
 ## [2.0.66](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.65...2.0.66) (2025-08-27)
 
 ### Dependency updates
