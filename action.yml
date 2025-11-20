@@ -4,24 +4,6 @@ inputs:
   token:  # github token
     description: 'Github token for deployment.'
     required: true
-#  diff-enable:
-#    description: 'Github token for deployment. Skips deployment otherwise.'
-#    required: false
-#    default: false
-#  diff-files:
-#    description: Latex files (globs) to diff, if diff enabled
-#    required: false
-#    default: |
-#      **/*.tex
-#  diff-lightweight-tags:
-#    description: Whether non-annotated tags should be considered
-#    required: false
-#    default: false
-#  diff-tag-regex:
-#    description: Newline-separated list of tags to create differential documents with. Ruby Regex syntax supported.
-#    required: false
-#    default: |
-#      .*
   publish-enable:
     description: 'Whether the results should be deployed on GitHub. Defaults to true.'
     required: false
@@ -30,24 +12,20 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Cache Docker images
-      uses: ScribeMD/docker-cache@0.5.0
-      with:
-        key: docker-cache-${{ runner.os }}-${{ hashFiles('.github/workflows/*') }}
+      - name: Maximize build space
+        uses: AdityaGarg8/remove-unwanted-software@v4.1
+        with:
+          remove-cached-tools: 'true'
+          remove-codeql: 'true'
+          remove-dotnet: 'true'
+          remove-android: 'true'
+          remove-haskell: 'true'
     - name: Make ImageMagik permissive
       shell: bash
       run: sudo sed -i 's/rights=".*"/rights="all"/' /etc/ImageMagick-6/policy.xml
     # Checkout the repository
     - name: Checkout
       uses: danysk/action-checkout@0.2.26
-#    - name: Prepare the differential documents
-#      uses: DanySK/auto-latexdiff@64.1.1
-#      id: latexdiff
-#      if: inputs.diff-enable == 'true'
-#      with:
-#        files: ${{ inputs.diff-files }}
-#        include-lightweight-tags: ${{ inputs.diff-lightweight-tags }}
-#        tags: ${{ inputs.diff-tag-regex }}
     - name: Compile LaTeX
       uses: DanySK/compile-latex-action@2.1.3
     - name: Autotag
