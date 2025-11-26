@@ -1,3 +1,9 @@
+## [2.1.1](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.1.0...2.1.1) (2025-11-26)
+
+### Dependency updates
+
+* **core-deps:** update LaTeX compile action to version 2.2.2 ([3ebed68](https://github.com/DanySK/compile-and-publish-all-latex/commit/3ebed68b49ed4641cdaa38fd4a3f54f1ed8581a5))
+
 ## [2.1.0](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.74...2.1.0) (2025-11-26)
 
 ### Features
