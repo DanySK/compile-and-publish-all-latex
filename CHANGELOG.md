@@ -1,3 +1,9 @@
+## [2.1.0](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.74...2.1.0) (2025-11-26)
+
+### Features
+
+* add caching for pulled Docker images ([25a1b0b](https://github.com/DanySK/compile-and-publish-all-latex/commit/25a1b0bf5559fd885b91d72d9337bf484cde798b))
+
 ## [2.0.74](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.0.73...2.0.74) (2025-11-26)
 
 ### Dependency updates
