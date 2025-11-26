@@ -31,7 +31,7 @@ runs:
       with:
         key: docker-${{ runner.os }}-${{ hashFiles('action.yml') }}
     - name: Compile LaTeX
-      uses: DanySK/compile-latex-action@2.2.2
+      uses: DanySK/compile-latex-action@2.2.3
     - name: Autotag
       uses: DanySK/semver-autotag-action@0.1.0
     - name: Deploy
