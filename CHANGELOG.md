@@ -1,3 +1,9 @@
+## [2.1.3](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.1.2...2.1.3) (2025-11-26)
+
+### Bug Fixes
+
+* cache based on workflow ([d7f087e](https://github.com/DanySK/compile-and-publish-all-latex/commit/d7f087ec1d5f7a2e1d3ab661ac5a850c935b813d))
+
 ## [2.1.2](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.1.1...2.1.2) (2025-11-26)
 
 ### Dependency updates
