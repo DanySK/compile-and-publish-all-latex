@@ -1,3 +1,9 @@
+## [2.1.4](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.1.3...2.1.4) (2025-11-27)
+
+### Bug Fixes
+
+* make Docker caching optional (can fail) ([bc721ce](https://github.com/DanySK/compile-and-publish-all-latex/commit/bc721cec34059a368eb4228855c7ca9d0ef83521))
+
 ## [2.1.3](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.1.2...2.1.3) (2025-11-26)
 
 ### Bug Fixes
