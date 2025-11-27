@@ -27,6 +27,7 @@ runs:
     - name: Checkout
       uses: danysk/action-checkout@0.2.26
     - name: Cache PULLED Docker images.
+      continue-on-error: true
       uses: ScribeMD/docker-cache@0.5.0
       with:
         key: docker-${{ runner.os }}-${{ hashFiles('.github/workflows/*.y*ml') }}
