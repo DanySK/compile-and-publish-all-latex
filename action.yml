@@ -32,7 +32,7 @@ runs:
       with:
         key: docker-${{ runner.os }}-${{ hashFiles('.github/workflows/*.y*ml') }}
     - name: Compile LaTeX
-      uses: DanySK/compile-latex-action@2.2.3
+      uses: DanySK/compile-latex-action@2.2.4
     - name: Autotag
       uses: DanySK/semver-autotag-action@0.1.0
     - name: Deploy
