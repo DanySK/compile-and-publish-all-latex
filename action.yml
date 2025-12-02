@@ -25,7 +25,7 @@ runs:
       run: sudo sed -i 's/rights=".*"/rights="all"/' /etc/ImageMagick-6/policy.xml
     # Checkout the repository
     - name: Checkout
-      uses: danysk/action-checkout@0.2.26
+      uses: danysk/action-checkout@0.2.27
     - name: Cache PULLED Docker images.
       continue-on-error: true
       uses: ScribeMD/docker-cache@0.5.0
