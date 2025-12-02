@@ -1,3 +1,9 @@
+## [2.1.7](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.1.6...2.1.7) (2025-12-02)
+
+### Dependency updates
+
+* **core-deps:** update danysk/action-checkout action to v0.2.27 ([#387](https://github.com/DanySK/compile-and-publish-all-latex/issues/387)) ([95dc4b6](https://github.com/DanySK/compile-and-publish-all-latex/commit/95dc4b664ce1bac9c5a070bc27f4f3b2f36d2195))
+
 ## [2.1.6](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.1.5...2.1.6) (2025-12-01)
 
 ### Dependency updates
