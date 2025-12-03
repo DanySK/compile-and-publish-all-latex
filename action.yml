@@ -15,11 +15,14 @@ runs:
     - name: Maximize build space
       uses: AdityaGarg8/remove-unwanted-software@v4.1
       with:
+        remove-android: 'true'
         remove-cached-tools: 'true'
         remove-codeql: 'true'
+        remove-docker-images: 'true'
         remove-dotnet: 'true'
-        remove-android: 'true'
         remove-haskell: 'true'
+        remove-large-packages: 'true'
+        remove-swapfile: 'true'
     - name: Make ImageMagik permissive
       shell: bash
       run: sudo sed -i 's/rights=".*"/rights="all"/' /etc/ImageMagick-6/policy.xml
