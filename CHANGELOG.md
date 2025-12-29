@@ -1,3 +1,13 @@
+## [2.2.1](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.2.0...2.2.1) (2025-12-29)
+
+### Dependency updates
+
+* **deps:** update node.js to 24.12 ([#391](https://github.com/DanySK/compile-and-publish-all-latex/issues/391)) ([5022d90](https://github.com/DanySK/compile-and-publish-all-latex/commit/5022d90075af9105f02873dfeebe220d05a4bebf))
+
+### Performance improvements
+
+* disable caching, as it penalizes performance currently ([5ffa075](https://github.com/DanySK/compile-and-publish-all-latex/commit/5ffa0752b176c962fa9ec488ed3d9ffbdeb9db3f))
+
 ## [2.2.0](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.1.8...2.2.0) (2025-12-03)
 
 ### Features
