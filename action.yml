@@ -8,6 +8,10 @@ inputs:
     description: 'Whether the results should be deployed on GitHub. Defaults to true.'
     required: false
     default: true
+  env-vars:
+    description: 'Comma-separated environment variable names to forward to compile-latex-action.'
+    required: false
+    default: ""
 
 runs:
   using: "composite"
@@ -36,6 +40,8 @@ runs:
 #        key: docker-${{ runner.os }}-${{ hashFiles('.github/workflows/*.y*ml') }}
     - name: Compile LaTeX
       uses: DanySK/compile-latex-action@2.2.7
+      with:
+        env-vars: ${{ inputs.env-vars }}
     - name: Autotag
       uses: DanySK/semver-autotag-action@0.1.0
     - name: Deploy
