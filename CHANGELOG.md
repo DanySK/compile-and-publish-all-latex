@@ -1,3 +1,18 @@
+## [2.3.0](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.2.3...2.3.0) (2026-04-19)
+
+### Features
+
+* add env-vars input ([#401](https://github.com/DanySK/compile-and-publish-all-latex/issues/401)) ([60f8af1](https://github.com/DanySK/compile-and-publish-all-latex/commit/60f8af13648f508f27af9546f2f5af17aa240bd5))
+
+### Dependency updates
+
+* **deps:** update node.js to 24.14 ([#398](https://github.com/DanySK/compile-and-publish-all-latex/issues/398)) ([181ee16](https://github.com/DanySK/compile-and-publish-all-latex/commit/181ee163b114995fe881aee3117e9884e25affab))
+* **deps:** update node.js to 24.15 ([#400](https://github.com/DanySK/compile-and-publish-all-latex/issues/400)) ([d0faebc](https://github.com/DanySK/compile-and-publish-all-latex/commit/d0faebccd50417314c797c82bf7ec63adeeecba9))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v6.3.0 ([#399](https://github.com/DanySK/compile-and-publish-all-latex/issues/399)) ([51e07aa](https://github.com/DanySK/compile-and-publish-all-latex/commit/51e07aa602cfcca83ab197a3fe9fe015c27384e7))
+
 ## [2.2.3](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.2.2...2.2.3) (2026-01-26)
 
 ### Dependency updates
