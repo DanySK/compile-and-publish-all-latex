@@ -39,7 +39,7 @@ runs:
 #      with:
 #        key: docker-${{ runner.os }}-${{ hashFiles('.github/workflows/*.y*ml') }}
     - name: Compile LaTeX
-      uses: DanySK/compile-latex-action@2.2.7
+      uses: DanySK/compile-latex-action@2.3.0
       with:
         env-vars: ${{ inputs.env-vars }}
     - name: Autotag
