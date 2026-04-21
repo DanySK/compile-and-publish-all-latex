@@ -1,3 +1,13 @@
+## [2.3.3](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.3.2...2.3.3) (2026-04-21)
+
+### Dependency updates
+
+* **core-deps:** update adityagarg8/remove-unwanted-software action to v5 ([#405](https://github.com/DanySK/compile-and-publish-all-latex/issues/405)) ([498701e](https://github.com/DanySK/compile-and-publish-all-latex/commit/498701ede26a2b66bbe3a22ea9a0d421c69bdd69))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v6.4.0 ([#404](https://github.com/DanySK/compile-and-publish-all-latex/issues/404)) ([9faa920](https://github.com/DanySK/compile-and-publish-all-latex/commit/9faa920c062bb90a826266c97e307c92ab0d9725))
+
 ## [2.3.2](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.3.1...2.3.2) (2026-04-19)
 
 ### Dependency updates
