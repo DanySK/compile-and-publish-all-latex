@@ -1,3 +1,9 @@
+## [2.3.4](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.3.3...2.3.4) (2026-04-28)
+
+### Bug Fixes
+
+* update compile-latex-action to the latest beta ([8ae53c7](https://github.com/DanySK/compile-and-publish-all-latex/commit/8ae53c7a5371520d7340e1bb759ad1380152d23c))
+
 ## [2.3.3](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.3.2...2.3.3) (2026-04-21)
 
 ### Dependency updates
