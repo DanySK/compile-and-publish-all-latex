@@ -1,3 +1,14 @@
+## [2.3.5](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.3.4...2.3.5) (2026-06-03)
+
+### Dependency updates
+
+* **core-deps:** update danysk/action-checkout action to v0.2.29 ([#408](https://github.com/DanySK/compile-and-publish-all-latex/issues/408)) ([73409c6](https://github.com/DanySK/compile-and-publish-all-latex/commit/73409c64730782926abcced77431f200ac0d613e))
+* **deps:** update node.js to 24.16 ([#406](https://github.com/DanySK/compile-and-publish-all-latex/issues/406)) ([b4f4e75](https://github.com/DanySK/compile-and-publish-all-latex/commit/b4f4e75d45331bc663359336213b20460c92b6a9))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v6.0.3 ([#407](https://github.com/DanySK/compile-and-publish-all-latex/issues/407)) ([0ecdbbb](https://github.com/DanySK/compile-and-publish-all-latex/commit/0ecdbbb73dcd42a3060b02223ec8d30406e5126a))
+
 ## [2.3.4](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.3.3...2.3.4) (2026-04-28)
 
 ### Bug Fixes
