@@ -1,3 +1,16 @@
+## [2.3.7](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.3.6...2.3.7) (2026-07-21)
+
+### Dependency updates
+
+* **core-deps:** update danysk/action-checkout action to v0.2.31 ([#416](https://github.com/DanySK/compile-and-publish-all-latex/issues/416)) ([c1fb503](https://github.com/DanySK/compile-and-publish-all-latex/commit/c1fb50354e68ba7412864ccba630ab13eb45d6e0))
+* **deps:** update node.js to 24.17 ([#411](https://github.com/DanySK/compile-and-publish-all-latex/issues/411)) ([5330ac5](https://github.com/DanySK/compile-and-publish-all-latex/commit/5330ac56756f7726e347dff07c58148c4131efe3))
+* **deps:** update node.js to 24.18 ([#412](https://github.com/DanySK/compile-and-publish-all-latex/issues/412)) ([215b2fb](https://github.com/DanySK/compile-and-publish-all-latex/commit/215b2fbe1952474f1d5b9ba9d8bf953e973ae600))
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v6.5.0 ([#413](https://github.com/DanySK/compile-and-publish-all-latex/issues/413)) ([ea257ad](https://github.com/DanySK/compile-and-publish-all-latex/commit/ea257ad5de3eb7238df0f59ab63032ca216bd69e))
+* **deps:** update actions/setup-node action to v7 ([#414](https://github.com/DanySK/compile-and-publish-all-latex/issues/414)) ([eec95c5](https://github.com/DanySK/compile-and-publish-all-latex/commit/eec95c5dfefb0e6fa0d5c02858c76557416177d5))
+
 ## [2.3.6](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.3.5...2.3.6) (2026-06-19)
 
 ### Dependency updates
