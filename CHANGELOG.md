@@ -1,3 +1,9 @@
+## [2.3.9](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.3.8...2.3.9) (2026-11-03)
+
+### Bug Fixes
+
+* remove ImageMagick permissive configuration step ([5061c28](https://github.com/DanySK/compile-and-publish-all-latex/commit/5061c28cac749eb02e1d2254fb27857983772e89))
+
 ## [2.3.8](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.3.7...2.3.8) (2026-11-03)
 
 ### Dependency updates
