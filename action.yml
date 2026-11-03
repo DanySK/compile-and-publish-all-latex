@@ -27,9 +27,6 @@ runs:
         remove-haskell: 'true'
         remove-large-packages: 'true'
         remove-swapfile: 'true'
-    - name: Make ImageMagik permissive
-      shell: bash
-      run: sudo sed -i 's/rights=".*"/rights="all"/' /etc/ImageMagick-6/policy.xml
     # Checkout the repository
     - name: Checkout
       uses: danysk/action-checkout@0.2.31
