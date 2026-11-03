@@ -1,3 +1,22 @@
+## [2.3.8](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.3.7...2.3.8) (2026-11-03)
+
+### Dependency updates
+
+* **deps:** update node.js to 24.19 ([#417](https://github.com/DanySK/compile-and-publish-all-latex/issues/417)) ([362d291](https://github.com/DanySK/compile-and-publish-all-latex/commit/362d291ba9d5dbd503cf91b207683405259bb56a))
+* **deps:** update node.js to 24.20 ([#418](https://github.com/DanySK/compile-and-publish-all-latex/issues/418)) ([95f41c9](https://github.com/DanySK/compile-and-publish-all-latex/commit/95f41c96f71fbccee2258821477fd984ecc2f428))
+* **deps:** update node.js to 24.21 ([#419](https://github.com/DanySK/compile-and-publish-all-latex/issues/419)) ([b4c1811](https://github.com/DanySK/compile-and-publish-all-latex/commit/b4c1811adc96857bfbeaca8be13e8ecb782a562a))
+* **deps:** update node.js to 24.22 ([#421](https://github.com/DanySK/compile-and-publish-all-latex/issues/421)) ([908207c](https://github.com/DanySK/compile-and-publish-all-latex/commit/908207c9cdbe59f95f2f4263b991dd7321fdb362))
+* **deps:** update node.js to v26 ([#422](https://github.com/DanySK/compile-and-publish-all-latex/issues/422)) ([228ac58](https://github.com/DanySK/compile-and-publish-all-latex/commit/228ac58104863333ef619088cb8be683f99dfad9))
+
+### Bug Fixes
+
+* avoid build space expansion to fail due to powershell ([96abfe7](https://github.com/DanySK/compile-and-publish-all-latex/commit/96abfe719e355a7ac8bdc68f995e39d503ddddf5))
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v7.0.1 ([#415](https://github.com/DanySK/compile-and-publish-all-latex/issues/415)) ([1417c19](https://github.com/DanySK/compile-and-publish-all-latex/commit/1417c19a89ee037eea61634d68e0515dd557ecef))
+* **deps:** update actions/setup-node action to v7.1.0 ([#420](https://github.com/DanySK/compile-and-publish-all-latex/issues/420)) ([f17e9c9](https://github.com/DanySK/compile-and-publish-all-latex/commit/f17e9c9c9772fef5f1cd63ea727f90100854e379))
+
 ## [2.3.7](https://github.com/DanySK/compile-and-publish-all-latex/compare/2.3.6...2.3.7) (2026-07-21)
 
 ### Dependency updates
